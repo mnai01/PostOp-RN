@@ -1,23 +1,42 @@
 {
-  "name": "postop",
-  "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "expo": "~48.0.10",
-    "expo-status-bar": "~1.4.4",
-    "react": "18.2.0",
-    "react-native": "0.71.6"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "@types/react": "~18.0.14",
-    "typescript": "^4.9.4"
-  },
-  "private": true
+    "name": "postop",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+        "start": "expo start",
+        "android": "expo start --android",
+        "ios": "expo start --ios",
+        "web": "expo start --web"
+    },
+    "dependencies": {
+        "@mediapipe/pose": "^0.5.1675469404",
+        "@react-native-async-storage/async-storage": "1.17.11",
+        "@tensorflow-models/pose-detection": "^2.1.0",
+        "@tensorflow/tfjs": "4.4.0",
+        "@tensorflow/tfjs-backend-webgpu": "^0.0.1-alpha.19",
+        "@tensorflow/tfjs-react-native": "^0.8.0",
+        "expo": "~48.0.10",
+        "expo-camera": "~13.2.1",
+        "expo-file-system": "~15.2.2",
+        "expo-gl": "~12.4.0",
+        "expo-gl-cpp": "~11.4.0",
+        "expo-screen-orientation": "~5.1.1",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-native": "0.71.6",
+        "react-native-fs": "~2.20.0",
+        "react-native-gesture-handler": "~2.9.0",
+        "react-native-svg": "13.4.0",
+        "react-native-unimodules": "^0.14.10"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.21.4",
+        "@expo/webpack-config": "^18.0.3",
+        "@types/react": "~18.0.33",
+        "@types/react-native": "~0.71.5",
+        "babel-preset-expo": "~9.3.2",
+        "jest-expo": "~48.0.2",
+        "typescript": "^4.9.4"
+    },
+    "private": true
 }
